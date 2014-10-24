@@ -7,7 +7,7 @@
 Developer's Best Friend: Using Laravel, create an application which includes a Lorem Ipsum Generator and a Random User Generator.
 
 ## Demo Information:
-## Will add after create screencast
+I will add the link here after I create the screencast.
 
 ## Details for teaching team:
 None

@@ -9,7 +9,7 @@
 
  	<h2>Random User Generator</h2>	
 	
-	<p class="error">
+	<p class="error"> 
 		@if ($msg != "")
 			{{ $msg }}
 		@endif
@@ -24,8 +24,6 @@
 		{{ Form::checkbox('profile') }} <br><br>
 		{{ Form::submit('Get Users', array('id' => 'generateUsers')) }} 
 	{{ Form::close()}}
-
-	{{-- CHANGE TO ARRAY LENGTH --}}
 
 	@if (isset($users))
 		@for ($i=0; $i < $numUsers; $i++) 
