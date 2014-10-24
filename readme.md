@@ -7,12 +7,17 @@
 Developer's Best Friend: Using Laravel, create an application which includes a Lorem Ipsum Generator and a Random User Generator.
 
 ## Demo Information:
-##http://screencast.com/t/XzFTHDAopb
+## Will add after create screencast
 
 ## Details for teaching team:
+None
 
 
 ## Outside code
+For my lorem ipsum text, I used the package badcow/lorem-ipsum.
+For my random users, I used the Package fzaninotto/faker.
+
+
 
 
 

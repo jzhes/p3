@@ -4,10 +4,6 @@
 	Random User Generator
 @stop
 
-@section('head')
-	<link rel='stylesheet' href='random-user.css' type='text/css'>
-@stop
-
 @section('content')
 	<a href="../">Go Home</a>
 
