@@ -5,7 +5,7 @@
 
 ## Description:
 Developer's Best Friend: Using Laravel, create an application which includes a Lorem Ipsum Generator and a Random User Generator.  The Lorem Ipsum Generator 
-creates dummy text and the Random User Generator 
+creates dummy text and the Random User Generator creates test user data for applications.
 
 ## Demo Information:
 http://screencast.com/t/1nW8PYQD3iCs
