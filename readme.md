@@ -4,10 +4,11 @@
 <http://p3.jztech.me>
 
 ## Description:
-Developer's Best Friend: Using Laravel, create an application which includes a Lorem Ipsum Generator and a Random User Generator.
+Developer's Best Friend: Using Laravel, create an application which includes a Lorem Ipsum Generator and a Random User Generator.  The Lorem Ipsum Generator 
+creates dummy text and the Random User Generator 
 
 ## Demo Information:
-I will add the link here after I create the screencast.
+http://screencast.com/t/1nW8PYQD3iCs
 
 ## Details for teaching team:
 None
