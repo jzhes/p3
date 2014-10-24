@@ -1,0 +1,80 @@
+body {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: gray;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-image: url('../images/handmadepaper.png');
+	background-repeat: repeat;
+ }	
+ 
+#maincontent {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	box-shadow: 2px 2px 7px #888;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+h1 {
+	text-align: center;
+	color: #2c3e45; 
+	line-height: 1.5em;
+/*	margin-bottom: 30px; */
+}
+
+h2, h3 {
+	font-size: 1.5em;
+}
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	line-height: 1.3em;
+	color: #2c3e45; 
+
+}
+h3 {
+	color: mediumblue;	
+	padding-top: 10px;
+}	
+	
+/* make error message stand out */
+.error {
+	color: red;
+	font-size: 20px;
+	font-family: georgian serif;
+}
+
+#phoneNumber {
+	margin-bottom: 10px;
+	color: mediumblue;
+}
+
+#numwords {
+	width: 30px;
+}
+
+#numParas, #numUsers {
+	width: 30px;
+}
+
+#paragraph {
+	padding-top: 20px;
+}
+
+input#generateParas {
+	margin-bottom: 30px;
+}
+
+a:link , a:visited {
+	color: cornflowerblue; 
+}
+
+a:hover {
+	color: #545454;	
+}
+

@@ -9,11 +9,19 @@
 @stop
 
 @section('content')
-	<h2>Random User Generator</h2>	
+	<a href="../">Go Home</a>
+
+ 	<h2>Random User Generator</h2>	
+	
+	<p class="error">
+		@if ($msg != "")
+			{{ $msg }}
+		@endif
+	</p>
 
 	{{ Form::open (array ('url' => '/random-user')) }}
 		{{ Form::label('numUsers', 'Number of Users:') }}
-		{{ Form::text('numUsers', $numUsers, array('id' => 'numUsers', 'maxlength' => '2', 'size' => '1')) }} <br>
+		{{ Form::text('numUsers', $numUsers, array('id' => 'numUsers', 'maxlength' => '2')) }} <br>
 		{{ Form::label('phoneNumber', 'Phone Number:') }}
 		{{ Form::checkbox('phoneNumber') }} <br>
 		{{ Form::label('profile', 'Profile:') }}

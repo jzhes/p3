@@ -5,11 +5,9 @@
 	<meta charset='utf-8'>
 	
 	<link rel='stylesheet' href='css/main.css' type='text/css'>
-	
-	@yield('head')
-	
+
 </head>
-	<body>
+	<body id="maincontent">
 		<h1>Developer's Best Friend</h1>
 		@yield('content')
 	</body>
